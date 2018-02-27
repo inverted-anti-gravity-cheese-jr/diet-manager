@@ -1,0 +1,9 @@
+<div class="recipe">
+    <h1>{{title}}</h1>
+    <h2 i18n>Ingredients</h2>
+    <ul>
+        <li *ngFor="let ingredient of ingredients">{{ingredient.quantity}}x {{ingredient.name}}</li>
+    </ul>
+    <h2 i18n>Description</h2>
+    <span>{{description}}</span>
+</div>
